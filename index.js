@@ -30,7 +30,7 @@ db.run('CREATE TABLE IF NOT EXISTS user_blacklist (id INTEGER PRIMARY KEY AUTOIN
 client.commands = new Map();
 
 const commands = [];
-const commandFolders = ["bot","user","CREATOR"];
+const commandFolders = ["Code"];
 
 client.on('ready', async () => {
   console.log(`ログインしたアカウント：${client.user.tag}`);
